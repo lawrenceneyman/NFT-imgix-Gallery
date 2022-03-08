@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import Imgix from "react-imgix";
 
@@ -9,7 +10,7 @@ function App() {
         alt="imgix regular"
         />
 
-      <Imgix src="https://lawrence-neyman-imgix.imgix.net/chihiro016.jpg" />;
+      <Imgix src="https://lawrence-neyman-imgix.imgix.net/chihiro016.jpg" />
 
     </div>
   );

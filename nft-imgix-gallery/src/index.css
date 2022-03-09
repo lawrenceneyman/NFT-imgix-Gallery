@@ -56,10 +56,14 @@ code {
 	background-color: #373b69;
 	border-radius: 3px;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-	margin: 1rem;
+	/* changed margin to match react library example to make sizes work easier, this is = to 10px */
+	margin: 0.625rem auto;
 	position: relative;
 	overflow: hidden;
-	width: 300px;
+	/* changed to 50vw, again for react lib example */
+	width: 50vw;
+	/* added height for react lib ex */
+	height: auto;
 }
 .nft-info {
 	display: flex;

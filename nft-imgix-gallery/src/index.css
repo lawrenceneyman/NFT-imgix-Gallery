@@ -46,13 +46,13 @@ code {
 		monospace;
 }
 
-.movie-container {
+.nft-container {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.movie {
+.nft {
 	background-color: #373b69;
 	border-radius: 3px;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -61,24 +61,24 @@ code {
 	overflow: hidden;
 	width: 300px;
 }
-.movie-info {
+.nft-info {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem;
 }
 
-.movie-info h3 {
+.nft-info h3 {
 	margin: 0;
 }
 
-.movie img {
+.nft img {
 	object-fit: cover;
 	height: 450px;
 	width: 100%;
 }
 
-.movie-over {
+.nft-over {
 	background-color: white;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -95,7 +95,7 @@ code {
 	transition: transform 0.3s ease-in-out;
 }
 
-.movie:hover .movie-over {
+.nft:hover .nft-over {
 	transform: translateY(0%);
 }
 

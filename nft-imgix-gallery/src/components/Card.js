@@ -1,7 +1,7 @@
 import React from "react";
 
 const Card = ({ nft_path}) => (
-    <div className='movie'>
+    <div className='nft'>
       <img
         src={
           nft_path

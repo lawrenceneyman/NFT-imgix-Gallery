@@ -49,6 +49,19 @@ export class Images extends Component{
               This is an OpenSea image when viewing it fully w/o OS API. (339kb at 1920 x 1038 px)
             </p>
 
+            <Imgix 
+        className="nft"
+        src="https://lawrence-neyman-imgix.imgix.net/puppy.png" 
+        imgixParams={{ auto: "format,compress", h: "300", mask: "ellipse"   }}
+        /*sizes="33w"*/
+        alt="Pfp"
+        />
+            <p>
+              Profile Pic w imgix.
+            </p>
+
+        
+
         </div>
         
         )
